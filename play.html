@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Play Rock-Paper-Scissor</title>
+
+    <!-- atur lebar awal website sama dengan lebar layar & tidak di-zoom -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- panggil file CSS -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div id="rockpaperscissor-page">
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark-transparent">
+        <div class="container-fluid justify-content-start">
+          <!-- tombol back -->
+          <a href="./index.html" class="text-reset text-decoration-none">
+            <img class="my-1 d-block mx-5" src="./assets/img/panah-kembali.png" alt="click me" />
+          </a>
+          <!-- logo -->
+          <a class="navbar-brand" href="#">
+            <img src="./assets/img/logo-play.png" alt="" />
+          </a>
+          <!-- judul -->
+          <a class="navbar-brand fw-bold pe-5 text-warning mx-5" href="#">ROCK PAPER SCISSORS</a>
+        </div>
+      </nav>
+
+      <!-- rockpaperscissor -->
+      <div class="container">
+        <table class="table table-borderless">
+          <tr class="row">
+            <td class="col-4 text-center fw-bold">PLAYER 1</td>
+            <td class="col-4"></td>
+            <td class="col-4 text-center fw-bold">COM</td>
+          </tr>
+          <tr class="row py-2">
+            <td id="batu" class="col-4 text-center"><img src="./assets/img/batu.png" alt="BATU" /></td>
+            <td class="col-4 text-center"></td>
+            <td class="col-4 text-center"><img src="./assets/img/batu.png" alt="" /></td>
+          </tr>
+          <tr class="row py-2">
+            <td id="kertas" class="col-4 text-center"><img src="./assets/img/kertas.png" alt="KERTAS" /></td>
+            <td id="hasil" class="col-4 text-center text-danger fw-bolder fs-1 my-auto">VS</td>
+            <td class="col-4 text-center"><img src="./assets/img/kertas.png" alt="" /></td>
+          </tr>
+          <tr class="row py-2">
+            <td id="gunting" class="col-4 text-center"><img src="./assets/img/gunting.png" alt="GUNTING" /></td>
+            <td class="col-4 text-center"></td>
+            <td class="col-4 text-center"><img src="./assets/img/gunting.png" alt="" /></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <script src="./assets/js/play.js"></script>
+  </body>
+</html>

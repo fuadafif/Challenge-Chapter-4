@@ -1,0 +1,23 @@
+/* halaman rock-paper-scissor  */
+#rockpaperscissor-page {
+  background-image: url("../bg/background-2-1.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.pilihan {
+  border: 1px solid white;
+}
+
+.menang {
+  background-color: green;
+}
+
+.kalah {
+  background-color: red;
+}
+
+.seri {
+  background-color: gray;
+}
